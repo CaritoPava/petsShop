@@ -5,39 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petshop</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <section>
+        <section class="cabezaYPie">
         <p>Grandes ofertas en comedores</p>
-        <nav>
-            <ul>
+        <nav >
+            <ul class="barrapais">
                 <li>Español</li>
                 <li>ARG$</li>
             </ul>
         </section>
 
-        <section>
+        <section class="barranaranja">
             <img src="img/logo.jpeg" alt="Logo tienda">
             <nav>
-            <ul>
-                <li>Categorias</li>
-                <li>Pets</li>
-                <li>Nosotros</li>
-                <li>Contactanos</li>
+            <ul class="barranaranja">
+                <li><i class="fas fa-paw"></i>Categorias</li>
+                <li><i class="fas fa-paw"></i>Pets</li>
+                <li><i class="fas fa-paw"></i>Nosotros</li>
+                <li><i class="fas fa-paw"></i>Contactanos</li>
             </ul>
             </nav>
         </section>
     </header>
 
-    <section>
-        <img src="img/banner.jpeg" width="1025px" height="409px"alt="Banner principal">
-        <p>¡Es un placer tenerte aquí!</p>
+    <section class="banner">
+        <p class="bienvenida">¡Es un placer tenerte aquí!</p>
         <p>¡Comederos en descuento!</p>
-        <a href="#index">COMEDEROS</a>
+        <button>COMEDEROS</button>
     </section>
 
     <section>
+        <i class="far fa-paw"></i>
         <img src="img/patita.jpeg" alt="Patita">
         <p>Productos destacados</p>
         <nav>
@@ -75,20 +80,25 @@
         <button>Enviar</button>
     </section>
 
-    <section>
+    <section class="barranaranja">
     <p>Suscribete para más novedades</p>
     <input type="text" placeholder="Ingresa tu correo eléctronico">
     <button>Suscribete</button>
     </section>
 
-    <section>
+    <section class="cafe">
+
+        <i class="fas fa-map-marker-alt"></i>
         <p>Localidad</p>
         <p>Calle - provincia</p>
 
+
+        <i class="fas fa-phone"></i>
         <p>Teléfono</p>
         <p>Número de teléfono</p>
 
-        <p>Correo Electronico</p>
+        <i class="fas fa-envelope-open-text"></i>
+        <p>Correo Electrónico</p>
         <p>Dirección de correo</p>
 
         <img src="img/logoCafe.jpeg" alt="Logo">
@@ -100,7 +110,7 @@
 
     
 </body>
-<footer>
-    <p>Todos los derechos reservados Front End</p>
+<footer class="cabezaYPie">
+    <center><p>Todos los derechos reservados Front End</p></center>
 </footer>
 </html>

@@ -1,5 +1,59 @@
-header {
+.cabezaYPie{
     background-color: #222222;
-    
+    color:#F3F3F3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    display: flex
 
+
+    ;
+}
+
+.barrapais{
+    list-style: none;
+    text-align:right;
+    display: inline-flex;
+   
+   
+    
+}
+
+.barranaranja{
+    background-color: #F0A83E;;
+    list-style: none;
+    text-align: right;
+    display: inline-flex;
+  
+    
+    ;
+}
+
+.banner {
+    background-image: url("../img/banner.jpeg");
+    width: 1000px; height: 500px;
+    background-size: cover;
+}
+
+.bienvenida {
+    background-color:#FFFFFF;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    color: #3C2313;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: inline-flex;
+
+
+    ;
+
+}
+
+.cafe{
+    background-color: #3C2313;
+    color: white
+    ;
 }
