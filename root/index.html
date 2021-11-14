@@ -36,45 +36,57 @@
     </header>
 
     <section class="banner">
-        <p class="bienvenida">¡Es un placer tenerte aquí!</p>
-        <p>¡Comederos en descuento!</p>
-        <button>COMEDEROS</button>
+        <div class="contendorbanner">
+            <p class="bienvenida">¡Es un placer tenerte aquí!</p>
+            <p class="descuento">¡Comederos en descuento!</p>
+            <button class="comederos">COMEDEROS</button>
+        </div>
     </section>
 
     <section>
-        <i class="far fa-paw"></i>
-        <img src="img/patita.jpeg" alt="Patita">
-        <p>Productos destacados</p>
-        <nav>
-            <ul>
-                <li>Comederos</li>
-                <li>Accesorios</li>
+        <!-- <i class="far fa-paw"></i> -->
+        <center><img src="img/patita.jpeg" alt="Patita"></center>
+        <p class="destacados">Productos destacados</p>
+        <nav >
+            <ul class="barraproductos">
+                <li>Comederos </li>
+                <li>Accesorios </li>
                 <li>Comida</li>
             </ul>
         </nav>
     </section>
 
-    <section>
+    <section class="contenedorflex">
 
-        <img src="img/jugueteChurrasquito.png" alt="Juguete Churrasquito">
-        <h2>Juguete Churrasquito</h2>  
-        <p>$ 150 </p>
+        <div class="contenedor1">
+            <img src="img/jugueteChurrasquito.png" alt="Juguete Churrasquito">
+            <h2>Juguete Churrasquito</h2>  
+            <p>$ 150 </p>
+        </div>
 
-        <img src="img/comederoParaPerro.png" alt="Comedero para perro">
-        <h2>Comedero para perro</h2>  
-        <p>$ 250 </p>     
+
+        <div class="contenedor1">
+            <img src="img/comederoParaPerro.png" alt="Comedero para perro">
+            <h2>Comedero para perro</h2>  
+            <p>$ 250 </p>  
+        </div>
         
-        <img src="img/jugueteHuesito.png" alt="Juguete Huesito">
-        <h2>Juguete Huesito</h2>  
-        <p>$ 650 </p>   
+        <div class="contenedor1">
+            <img src="img/jugueteHuesito.png" alt="Juguete Huesito">
+            <h2>Juguete Huesito</h2>  
+            <p>$ 650 </p>   
+        </div>
 
     </section>
 
     <section>
-        <p>Contáctanos</p>
-        <input type="text" placeholder="Nombre y Apellido">
-        <input type="text" placeholder="Ingresa tu correo electónico">
-        <input type="text" placeholder="Teléfono">
+        <p class="destacados"> Contáctanos</p>
+
+        <div class="info">
+            <input type="text" placeholder="Nombre y Apellido" class="info">
+            <input type="text" placeholder="Ingresa tu correo electónico"class="info">
+            <input type="text" placeholder="Teléfono" class="info">
+        </div>
         
         <button>Resetear</button>
         <button>Enviar</button>

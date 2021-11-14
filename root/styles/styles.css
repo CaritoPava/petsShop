@@ -4,26 +4,34 @@
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
     font-weight: 400;
-    display: flex
-
-
-    ;
+    display: flex;
+    justify-content: space-between;
 }
+
+.cabezaYPie p{
+    margin-left: 40px;
+}
+
 
 .barrapais{
     list-style: none;
     text-align:right;
-    display: inline-flex;
-   
-   
-    
+    display: inline-flex;  
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.barrapais,li{
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .barranaranja{
     background-color: #F0A83E;;
     list-style: none;
-    text-align: right;
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
+    color: white
   
     
     ;
@@ -31,8 +39,20 @@
 
 .banner {
     background-image: url("../img/banner.jpeg");
-    width: 1000px; height: 500px;
     background-size: cover;
+    display: flex;
+    height: 856px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.contenedorbanner{
+    display: flex;
+    justify-content: center;
+    
 }
 
 .bienvenida {
@@ -46,14 +66,78 @@
     font-family: 'Roboto', sans-serif;
     text-align: center;
     display: inline-flex;
-
+    height: 54px;
+    width: 345px;
+    font-size: 30px;
+    margin-right: 20px
 
     ;
 
 }
 
+.descuento{
+    font-size: 16px;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+.comederos{
+    margin-left: 30%;
+    background-color: #F0A83E;
+    padding: 20px;
+}
+
+.barraproductos{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.destacados{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700px;
+    font-size: 40px;
+    text-align: center;
+    color: #3C2313;
+    ;
+}
+
+.contenedorflex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor1 h2 {
+    text-align: center;
+    
+
+}
+
+.contenedor1 p{
+    color: #F0A83E;
+    text-align: center;
+    width: 500px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #3C2313;
+    color:white;
+    width: 340px;
+    height: 40px; 
+
+}
+
 .cafe{
     background-color: #3C2313;
-    color: white
-    ;
+    color: white;
 }
