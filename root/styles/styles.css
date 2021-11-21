@@ -10,6 +10,7 @@
 
 .cabezaYPie p{
     margin-left: 40px;
+    text-align: center;
 }
 
 
@@ -32,27 +33,58 @@
     display: flex;
     justify-content: space-between;
     color: white
-  
-    
     ;
+}
+
+.barranaranja1 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.barranaranja2 input{
+    background-color: white;
+    color:rgb(85, 81, 81);
+    margin-bottom: 12px;
+    margin-top: 15px;
+    width: 340px;
+    height: 40px; 
+    border-radius: 50px;
+    border-style: none;
+    padding-left: 20px;
+}
+
+.barranaranja2 button{
+    width: 70px;
+    height: 34px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700px;
+    font-size: 9px;
+    color:white;
+    background-color:#3C2313;
+    border-style: none;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-right: 20px;  
 }
 
 .banner {
     background-image: url("../img/banner.jpeg");
+    /* background-repeat: no-repeat; */
     background-size: cover;
+    background-position: center;
+    /* background-size: contain; */
     display: flex;
     height: 856px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
-    
+    align-items: flex-end;   
 }
 
 .contenedorbanner{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 .bienvenida {
@@ -69,10 +101,7 @@
     height: 54px;
     width: 345px;
     font-size: 30px;
-    margin-right: 20px
-
-    ;
-
+    margin-right: 20px;
 }
 
 .descuento{
@@ -100,7 +129,7 @@
     font-size: 40px;
     text-align: center;
     color: #3C2313;
-    ;
+    
 }
 
 .contenedorflex{
@@ -126,18 +155,160 @@
     width: 500px;
 }
 
-.info{
+.info {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #3C2313;
-    color:white;
-    width: 340px;
-    height: 40px; 
-
+    align-items: center;
 }
 
+.info input{
+    background-color: #3C2313;
+    color:white;
+    margin-bottom: 12px;
+    width: 340px;
+    height: 40px; 
+    border-radius: 50px;
+    border-style: none;
+    padding-left: 20px;
+}
+
+.fa-envelope-open {
+    color: white;
+    font-size: 40px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
 .cafe{
     background-color: #3C2313;
     color: white;
 }
+
+.contenedorbotones{
+    display: flex;
+    justify-content: center;
+}
+
+.boton1  {
+    align-items: center;
+    margin: 15px;
+    width: 110px;
+    height: 34px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    color:white;
+    background-color:#8A8787;
+    border-style: none;
+    border-radius: 50px;
+}
+
+.boton2  {
+    align-items: center;
+    margin: 15px;
+    width: 110px;
+    height: 34px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    color:white;
+    background-color: #F0A83E;
+    border-style: none;
+    border-radius: 50px;  
+}
+
+/* ANIMACION BARRA CAFE CONTENEDORA DE INFORMACION */
+
+.cafe {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedorcafe1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.localidad {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.icono{
+    font-size: 70px;
+    margin: 10px;
+    background-color: rgba(196, 191, 191, 0.291);
+    padding: 0px;
+    border-radius: 50%;
+}
+
+.contenedorcafe2{
+    margin-top: 8%;
+    margin-right: 30px;
+    width: auto;
+    height: auto;
+}
+
+.contenedorflexbannercafe{
+    display: flex;
+}
+
+.descripcion{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700px;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.datos{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700px;
+    font-size: 10px;
+    text-align: left;
+    margin-top: -10px;
+    color: #8A8787;
+}
+
+@media (max-width:375px){
+    body{margin: 0px;
+        padding: 0px;
+
+    }
+    .contenedorflex{
+        flex-direction: column;
+    }
+    .cabezaYPie{
+        display: none;
+    }
+    .banner{
+        background-image: url("../img/banner.jpeg") no-repeat center center fixed ;
+    }
+    .barranaranja{
+        display: flex;
+        flex-direction: column;
+    }
+    .barranaranja2{
+        display: flex;
+        justify-content: center;
+        width: 320px;
+    }
+    .contenedorcafe2{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        position:absolute;
+        margin-top: 5px;
+        align-items: center;
+    }
+    .contenedorcafe2 img{
+        width: 50%;
+        height: 50%;
+    }
+    .contenedorcafe1{
+        margin-top: 35px;
+    }
+}
+
