@@ -152,7 +152,7 @@
 .contenedor1 p{
     color: #F0A83E;
     text-align: center;
-    width: 500px;
+    /* width: 500px; */
 }
 
 .info {
@@ -272,7 +272,7 @@
     color: #8A8787;
 }
 
-@media (max-width:375px){
+@media (max-width:425px){
     body{margin: 0px;
         padding: 0px;
 
@@ -310,5 +310,20 @@
     .contenedorcafe1{
         margin-top: 35px;
     }
+    .barranaranja2 button{
+        margin-top: 20px;
+        width: 150px;
+        height: 37px;
+    }
+    .inputcorreo{
+        margin-left: 56px;
+        padding-right: 12px;
+        width: auto;
+    }
+
+        
+
+    }
+    
 }
 
